@@ -10,7 +10,7 @@ import com.microsoft.azure.functions.*;
 /**
  * Azure Functions with HTTP Trigger.
  */
-public class Function {
+public class CountriesFuncApp {
     /**
      * This function listens at endpoint "/api/HttpTrigger-Java". Two ways to invoke it using "curl" command in bash:
      * 1. curl -d "HTTP Body" {your host}/api/HttpTrigger-Java&code={your function key}

@@ -45,7 +45,7 @@ public class FunctionTest {
         doReturn(Logger.getGlobal()).when(context).getLogger();
 
         // Invoke
-        final HttpResponseMessage ret = new Function().GetCountriesList(req, context);
+        final HttpResponseMessage ret = new CountriesFuncApp().GetCountriesList(req, context);
 
         // Verify
         assertEquals(ret.getStatus(), HttpStatus.OK);
